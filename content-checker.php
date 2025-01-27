@@ -28,8 +28,8 @@ function check_for_plugin_update($transient) {
         $obj = new stdClass();
         $obj->slug = $plugin_slug;
         $obj->new_version = $remote_version;
-        $obj->url = 'https://your-update-server.com/content-checker/';
-        $obj->package = 'https://your-update-server.com/content-checker/content-checker.zip';
+        $obj->url = 'https://github.com/brow51wss/WP_plugin_IMG_Detection_PlaceHolderText';
+        $obj->package = 'https://github.com/brow51wss/WP_plugin_IMG_Detection_PlaceHolderText/archive/v1.1.zip';
         $transient->response[$plugin_path] = $obj;
     }
 
