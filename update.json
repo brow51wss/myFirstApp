@@ -1,0 +1,9 @@
+{
+    "name": "Content Quality Checker",
+    "version": "1.1",
+    "download_url": "https://your-update-server.com/content-checker/content-checker.zip",
+    "sections": {
+        "description": "Detects large images and lorem ipsum placeholder text",
+        "changelog": "* Added background image detection\n* Improved image size checking"
+    }
+} 
